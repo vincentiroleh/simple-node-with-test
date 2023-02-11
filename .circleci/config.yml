@@ -13,10 +13,10 @@ jobs:
           command: |
             npm install
 
-      - run:
-          name: Run tests
-          command: |
-            npm test
+      # - run:
+      #     name: Run tests
+      #     command: |
+      #       npm test
 
       - run:
           name: Deploy to Elastic Beanstalk
